@@ -8,8 +8,8 @@
 function MainMenu {
     Clear-Host
     Write-Color "===================== Choose your Menu =====================" -Color Green
-    Write-Color "1: Press '1' for Netowrk Settings" -Color Green
-    Write-Color "2: Press '2' for Windows Version" -Color Green
+    Write-Color "1: Press '1' for Menu 1" -Color Green
+    Write-Color "2: Press '2' for Menu 2" -Color Green
     Write-Color "3: Press '3' for Windows Update" -Color Green
     Write-Color "4: Press '4' for Run Choco update & Clean Chocolatey Files" -Color Green
     Write-Color "Q: Press 'Q' to quit." -Color Green
