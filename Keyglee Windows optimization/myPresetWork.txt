@@ -1,0 +1,168 @@
+ShowDateAndTimeBegin
+disableTelemetry
+disableWiFiSense
+disableSmartScreen
+disableWebSearch
+disableAppSuggestions
+disableActivityHistory
+disableBackgroundApps
+disableSensors
+disableLocation
+disableMapUpdates
+disableFeedback
+disableTailoredExperiences
+disableAdvertisingID
+disableWebLangList
+disableCortana
+# disableCamera
+# disableMicrophone
+disableErrorReporting
+# SetP2PUpdateLocal
+disableDiagTrack
+# disableWAPPush
+EnableClearRecentFiles
+disableRecentFiles
+SetUACLow
+disableAdminShares
+disableDefenderCloud
+# EnableCtrldFolderAccess
+# EnableCIMemoryIntegrity
+# disableDefenderAppGuard
+HideAccountProtectionWarn
+disableDownloadBlocking
+# EnableF8BootMenu
+SetCurrentNetworkPublic
+SetUnknownNetworksPublic
+disableNetDevicesAutoInst
+# disableSMBServer
+disableNetBIOS
+# EnableLLMNR
+# EnableLLDP
+# disableMSNetClient
+# disableQoS
+# disableConnectionSharing
+# disableRemoteAssistance
+EnableRemoteDesktop
+EnableUpdateMSProducts
+disableUpdateAutoDownload
+disableMaintenanceWakeUp
+disableSharedExperiences
+disableClipboardHistory
+disableAutoplay
+disableAutorun
+disableStorageSense
+disableDefragmentation
+disableSuperfetch
+disableIndexing
+# disableSwapFile
+# disableRecycleBin
+# EnableNTFSLastAccess
+disable Hibernation
+disableSleepButton
+disableSleepTimeout
+# SetupScreenSaver
+# disableFastStartup
+ChangeBackgroundColor
+disableActionCenter
+HideNetworkFromLockScreen
+disableAccessibilityKeys
+ShowTaskManagerDetails
+# EnableFileDeleteConfirm
+HideTaskbarSearch
+HideTaskView
+ShowSmallTaskbarIcons
+SetTaskbarCombineNever
+HideTaskbarPeopleIcon
+ShowTrayIcons
+disableSearchAppInStore
+disableNewAppPrompt
+HideRecentlyAddedApps
+HideMostUsedApps
+SetControlPanelSmallIcons
+disableShortcutInName
+HideShortcutArrow
+SetVisualFXPerformance
+disableTitleBarColor
+EnableDarkTheme
+disableF1HelpKey
+ShowExplorerTitleFullPath
+ShowKnownExtensions
+ShowHiddenFiles
+EnableNavPaneExpand
+ShowNavPaneAllFolders
+disableFldrSeparateProcess
+disableRestoreFldrWindows
+ShowEncCompFilesColor
+# disableSharingWizard
+HideSyncNotifications
+HideRecentShortcuts
+SetExplorerThisPC
+HideQuickAccess
+HideRecycleBinFromDesktop
+ShowThisPCOnDesktop
+HideUserFolderFromDesktop
+ShowControlPanelOnDesktop
+HideNetworkFromDesktop
+# ShowBuildNumberFromDesktop
+# MoveUserFolders
+HideDesktopFromThisPC
+HideDesktopFromExplorer
+HideDocumentsFromThisPC
+HideDownloadsFromThisPC
+HideDownloadsFromExplorer
+HideMusicFromThisPC
+HideMusicFromExplorer
+HidePicturesFromThisPC
+HidePicturesFromExplorer
+HideVideosFromThisPC
+HideVideosFromExplorer
+Hide3DObjectsFromThisPC
+Hide3DObjectsFromExplorer
+HideIncludeInLibraryMenu
+HideGiveAccessToMenu
+# HideShareMenu
+disableThumbnails
+disableThumbnailCache
+disableThumbsDBOnNetwork
+disableOneDrive
+UninstallMsftBloat
+UninstallThirdPartyBloat
+UninstallWindowsStore
+disableXboxFeatures
+disableProvisionedPackage
+disableFullscreenOptims
+disableAdobeFlash
+disableEdgePreload
+disableEdgeShortcutCreation
+disableIEFirstRun
+DisableMediaSharing
+# InstallXPSPrinter
+UninstallMediaPlayer
+UninstallInternetExplorer
+UninstallWorkFolders
+UninstallPowerShellV2
+# UninstallLinuxSubsystem
+InstallHyperV
+UninstallBrowserInternetExplorer
+UninstallHelloFace
+UninstallLanguageHandwriting
+UninstallLanguageOCR
+UninstallLanguageSpeech
+UninstallLanguageTextToSpeech
+UninstallMathRecognizer
+UninstallOneCoreUAPOneSync
+InstallSSHClient
+InstallSSHServer
+# InstallNET23
+UninstallQuickAssist
+# UninstallPDFPrinter
+# UninstallXPSPrinter
+RemoveFaxPrinter
+# UninstallFaxAndScan
+UnpinStartMenuTiles
+UninstallOneDrive
+InstallChoco
+Cinst
+ShowDateAndTimeEnd
+WaitForKey
+Restart

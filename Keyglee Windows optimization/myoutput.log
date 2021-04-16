@@ -1,0 +1,1569 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210212165859
+Username: LAPTOP-UNFUTVC5\Saki
+RunAs User: LAPTOP-UNFUTVC5\Saki
+Configuration Name: 
+Machine: LAPTOP-UNFUTVC5 (Microsoft Windows NT 10.0.19041.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File WindowsOptimization.ps1 -include WindowsOptimization.psm1 -preset myPresetWork.txt -log myoutput.log
+Process ID: 11944
+PSVersion: 5.1.19041.1
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1
+BuildVersion: 10.0.19041.1
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\Dropbox\powershell\WindowsOptimization\myoutput.log
+
+**********************************************************************
+Current log was proccessed at :
+04:58:59, 2021/02/12 
+**********************************************************************
+Disabling Telemetry... And don't forget to disable Connected User Experiences and Telemetry service
+Disabling Wi-Fi Sense...
+Disabling SmartScreen Filter...
+Disabling Bing Search in Start Menu...
+Disabling Application suggestions...
+Disabling Activity History...
+Disabling Background application access...
+Disabling sensors...
+Disabling location services...
+Disabling automatic Maps updates...
+Disabling Feedback...
+Disabling Tailored Experiences...
+Disabling Advertising ID...
+Disabling Website Access to Language List...
+Disabling Cortana...
+Disabling Error reporting...
+Stopping and disabling Connected User Experiences and Telemetry Service...
+Enabling clearing of recent files on exit...
+Disabling recent files lists...
+Lowering UAC level...
+Disabling implicit administrative shares...
+Disabling Windows Defender Cloud...
+Hiding Account Protection warning...
+Disabling blocking of downloaded files...
+Setting current network profile to public...
+Setting unknown networks profile to public...
+Disabling automatic installation of network devices...
+Disabling NetBIOS over TCP/IP...
+Enabling Remote Desktop...
+Enabling updates for other Microsoft products...
+Disabling Windows Update automatic downloads...
+Disabling nightly wake-up for Automatic Maintenance...
+Disabling Shared Experiences...
+Disabling Clipboard History...
+Disabling Autoplay...
+Disabling Autorun for all drives...
+Disabling Storage Sense...
+Disabling scheduled defragmentation...
+Stopping and disabling Superfetch service...
+Stopping and disabling Windows Search indexing service...
+disable : The term 'disable' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ disable Hibernation
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (disable:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+disable : The term 'disable' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ disable Hibernation
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (disable:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Disabling Sleep start menu and keyboard button...
+
+
+Disabling sleep mode and set display timeouts for 15 min...
+
+
+
+
+Disabling Action Center (Notification Center)...
+Hiding network options from Lock Screen...
+Disabling accessibility keys prompts...
+Showing task manager details...
+Hiding Taskbar Search icon / box...
+Hiding Task View button...
+Showing small icons in taskbar...
+Setting taskbar buttons to never combine...
+Hiding People icon...
+Showing all tray icons...
+Disabling search for app in store for unknown extensions...
+Disabling 'How do you want to open this file?' prompt...
+Hiding 'Recently added' list from the Start Menu...
+Hiding 'Most used' apps list from the Start Menu...
+Setting Control Panel view to small icons...
+Disabling adding '- shortcut' to shortcut name...
+Hiding shortcut icon arrow...
+Adjusting visual effects for performance...
+Disabling window title bar color...
+Enabling Dark Theme...
+Disabling F1 Help key...
+Showing full directory path in Explorer title bar...
+Showing known file extensions...
+Showing hidden files...
+Enabling navigation pane expanding to current folder...
+Showing all folders in Explorer navigation pane...
+Disabling launching folder windows in a separate process...
+Disabling restoring previous folder windows at logon...
+Showing coloring of encrypted or compressed NTFS files...
+Hiding sync provider notifications...
+Hiding recent shortcuts in Explorer...
+Changing default Explorer view to This PC...
+Hiding Quick Access from Explorer navigation pane...
+Hiding Recycle Bin shortcut from desktop...
+Showing This PC shortcut on desktop...
+Hiding User Folder shortcut from desktop...
+Showing Control panel shortcut on desktop...
+Hiding Network shortcut from desktop...
+Hiding Desktop icon from This PC...
+Hiding Desktop icon from Explorer namespace...
+Hiding Documents icon from This PC...
+Hiding Downloads icon from This PC...
+Hiding Downloads icon from Explorer namespace...
+Hiding Music icon from This PC...
+Hiding Music icon from Explorer namespace...
+Hiding Pictures icon from This PC...
+Hiding Pictures icon from Explorer namespace...
+Hiding Videos icon from This PC...
+Hiding Videos icon from Explorer namespace...
+Hiding 3D Objects icon from This PC...
+Hiding 3D Objects icon from Explorer namespace...
+Hiding 'Include in library' context menu item...
+Hiding 'Give access to' context menu item...
+Disabling thumbnails...
+Disabling creation of thumbnail cache files...
+Disabling creation of Thumbs.db on network folders...
+Disabling OneDrive...
+Uninstalling default Microsoft applications...
+Uninstalling default third party applications...
+Uninstalling Windows Store...
+Disabling Xbox features...
+Remove-AppxPackage : Deployment failed with HRESULT: 0x80073CFA, Removal failed. Please contact your software vendor. 
+(Exception from HRESULT: 0x80073CFA)
+error 0x80070032: AppX Deployment Remove operation on package 
+Microsoft.XboxGameCallableUI_1000.19041.1.0_neutral_neutral_cw5n1h2txyewy from: 
+C:\Windows\SystemApps\Microsoft.XboxGameCallableUI_cw5n1h2txyewy failed. This app is part of Windows and cannot be 
+uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows 
+Features on or off. However, it may not be possible to uninstall the app.
+
+NOTE: For additional information, look for [ActivityId] 053ca3f4-019e-0004-85c4-3c059e01d701 in the Event Log or use 
+the command line Get-AppPackageLog -ActivityID 053ca3f4-019e-0004-85c4-3c059e01d701
+
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3245 char:51
++ ...   Get-AppxPackage "Microsoft.XboxGameCallableUI" | Remove-AppxPackage
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (Microsoft.XboxG...l_cw5n1h2txyewy:String) [Remove-AppxPackage], IOException
+    + FullyQualifiedErrorId : DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.RemoveAppxPackageCommand
+Remove-AppxPackage : Deployment failed with HRESULT: 0x80073CFA, Removal failed. Please contact your software vendor.
+(Exception from HRESULT: 0x80073CFA)
+error 0x80070032: AppX Deployment Remove operation on package
+Microsoft.XboxGameCallableUI_1000.19041.1.0_neutral_neutral_cw5n1h2txyewy from:
+C:\Windows\SystemApps\Microsoft.XboxGameCallableUI_cw5n1h2txyewy failed. This app is part of Windows and cannot be
+uninstalled on a per-user basis. An administrator can attempt to remove the app from the computer using Turn Windows
+Features on or off. However, it may not be possible to uninstall the app.
+
+NOTE: For additional information, look for [ActivityId] 053ca3f4-019e-0004-85c4-3c059e01d701 in the Event Log or use
+the command line Get-AppPackageLog -ActivityID 053ca3f4-019e-0004-85c4-3c059e01d701
+
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3245 char:51
++ ...   Get-AppxPackage "Microsoft.XboxGameCallableUI" | Remove-AppxPackage
++                                                        ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (Microsoft.XboxG...l_cw5n1h2txyewy:String) [Remove-AppxPackage], IOException
+    + FullyQualifiedErrorId : DeploymentError,Microsoft.Windows.Appx.PackageManager.Commands.RemoveAppxPackageCommand
+
+Disabling Provisioned Packages ...
+PS>TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3274 char:101
++ ... eather" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3274 char:101
++ ... eather" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3276 char:97
++ ... etHelp" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3276 char:97
++ ... etHelp" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3278 char:107
++ ... Viewer" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3278 char:107
++ ... Viewer" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3280 char:118
++ ... ection" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3280 char:118
++ ... ection" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3282 char:97
++ ... SPaint" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3282 char:97
++ ... SPaint" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3284 char:100
++ ... onnect" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3284 char:100
++ ... onnect" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3286 char:97
++ ... rint3D" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3286 char:97
++ ... rint3D" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3288 char:106
++ ... aseApp" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3288 char:106
++ ... aseApp" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3290 char:104
++ ... Photos" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3290 char:104
++ ... Photos" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3292 char:108
++ ... ackHub" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3292 char:108
++ ... ackHub" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3294 char:103
++ ... Store " } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3294 char:103
++ ... Store " } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3296 char:105
++ ... verlay" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3296 char:105
++ ... verlay" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'PackageName'."
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3298 char:113
++ ... verlay" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'PackageName'.
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3298 char:113
++ ... verlay" } | Select-Object â€“Property PackageName | Remove-AppxProvis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+
+Disabling Fullscreen optimizations...
+Disabling built-in Adobe Flash in IE and Edge...
+Disabling Edge preload...
+Disabling Edge shortcut creation...
+Disabling Internet Explorer first run wizard...
+Disabling media sharing...
+Uninstalling Windows Media Player...
+Uninstalling Internet Explorer...
+Uninstalling Work Folders Client...
+Uninstalling PowerShell 2.0 Environment...
+Installing Hyper-V...
+Uninstalling Browser.InternetExplorer ...
+Uninstalling Hello.Face ...
+Uninstalling Language.Handwriting ...
+Uninstalling Language.OCR ...
+Uninstalling Language.Speech ...
+Uninstalling Language.TextToSpeech ...
+PS>TerminatingError(Remove-WindowsCapability): "Permanent package cannot be uninstalled.
+"
+Remove-WindowsCapability : Permanent package cannot be uninstalled.
+
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3629 char:92
++ ... "Language.TextToSpeech*" } | Remove-WindowsCapability -Online | Out-N ...
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Remove-WindowsCapability], COMException
+    + FullyQualifiedErrorId : Microsoft.Dism.Commands.RemoveWindowsCapabilityCommand
+Remove-WindowsCapability : Permanent package cannot be uninstalled.
+
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3629 char:92
++ ... "Language.TextToSpeech*" } | Remove-WindowsCapability -Online | Out-N ...
++                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Remove-WindowsCapability], COMException
+    + FullyQualifiedErrorId : Microsoft.Dism.Commands.RemoveWindowsCapabilityCommand
+
+Uninstalling MathRecognizer ...
+Uninstalling OneCoreUAP.OneSync ...
+Installing OpenSSH Client...
+Installing OpenSSH Server...
+Uninstalling Quick Assist ...
+Removing Default Fax Printer...
+Unpinning all Start Menu tiles...
+Uninstalling OneDrive...
+Installing Choco...
+PS>TerminatingError(Set-ExecutionPolicy): "Windows PowerShell updated your execution policy successfully, but the setting is overridden by a policy defined at a more specific scope.  Due to the override, your shell will retain its current effective execution policy of RemoteSigned. Type "Get-ExecutionPolicy -List" to view your execution policy settings. For more information please see "Get-Help Set-ExecutionPolicy"."
+Set-ExecutionPolicy : Windows PowerShell updated your execution policy successfully, but the setting is overridden by a 
+policy defined at a more specific scope.  Due to the override, your shell will retain its current effective execution 
+policy of RemoteSigned. Type "Get-ExecutionPolicy -List" to view your execution policy settings. For more information 
+please see "Get-Help Set-ExecutionPolicy".
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3977 char:2
++     Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expressi ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (:) [Set-ExecutionPolicy], SecurityException
+    + FullyQualifiedErrorId : ExecutionPolicyOverride,Microsoft.PowerShell.Commands.SetExecutionPolicyCommand
+Set-ExecutionPolicy : Windows PowerShell updated your execution policy successfully, but the setting is overridden by
+a policy defined at a more specific scope.  Due to the override, your shell will retain its current effective
+execution policy of RemoteSigned. Type "Get-ExecutionPolicy -List" to view your execution policy settings. For more
+information please see "Get-Help Set-ExecutionPolicy".
+At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.psm1:3977 char:2
++     Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expressi ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (:) [Set-ExecutionPolicy], SecurityException
+    + FullyQualifiedErrorId : ExecutionPolicyOverride,Microsoft.PowerShell.Commands.SetExecutionPolicyCommand
+Forcing web requests to allow TLS v1.2 (Required for requests to Chocolatey.org)
+Getting latest version of the Chocolatey package for download.
+Not using proxy.
+Getting Chocolatey from https://chocolatey.org/api/v2/package/chocolatey/0.10.15.
+Downloading https://chocolatey.org/api/v2/package/chocolatey/0.10.15 to C:\Users\Saki\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip
+Not using proxy.
+Extracting C:\Users\Saki\AppData\Local\Temp\chocolatey\chocoInstall\chocolatey.zip to C:\Users\Saki\AppData\Local\Temp\chocolatey\chocoInstall
+Installing Chocolatey on the local machine
+Creating ChocolateyInstall as an environment variable (targeting 'Machine') 
+  Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
+WARNING: It's very likely you will need to close and reopen your shell 
+  before you can use choco.
+Restricting write permissions to Administrators
+We are setting up the Chocolatey package repository.
+The packages themselves go to 'C:\ProgramData\chocolatey\lib'
+  (i.e. C:\ProgramData\chocolatey\lib\yourPackageName).
+A shim file for the command line goes to 'C:\ProgramData\chocolatey\bin'
+  and points to an executable in 'C:\ProgramData\chocolatey\lib\yourPackageName'.
+
+Creating Chocolatey folders if they do not already exist.
+WARNING: You can safely ignore errors related to missing log files when 
+  upgrading from a version of Chocolatey less than 0.9.9. 
+  'Batch file could not be found' is also safe to ignore. 
+  'The system cannot find the file specified' - also safe.
+chocolatey.nupkg file not installed in lib.
+ Attempting to locate it from bootstrapper.
+PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+WARNING: Not setting tab completion: Profile file does not exist at 'C:\Users\Saki\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+Chocolatey (choco.exe) is now ready.
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of functions.
+You may need to shut down and restart powershell and/or consoles
+ first prior to using choco.
+Ensuring Chocolatey commands are on the path
+Ensuring chocolatey.nupkg is in the lib folder
+Choco is installing ...
+                                    Installing OpenSSH Server...
+                                                               Uninstalling Quick Assist ...
+                                                                                          Rem
+oving Default Fax Printer...
+                        Unpinning all Start Menu tiles...
+                                                   Uninstalling OneDrive...
+                                                                              Installing Choc
+o...
+            Set-ExecutionPolicy : Windows PowerShell updated your execution policy successful
+ly, but the setting is overridden by   a policy defined at a more specific scope.  Due to the
+ override, your shell will retain its current effective           execution policy of RemoteS
+igned. Type "Get-ExecutionPolicy -List" to view your execution policy settings. For more
+information please see "Get-Help Set-ExecutionPolicy".
+                           At D:\Dropbox\powershell\WindowsOptimization\WindowsOptimization.p
+sm1:3977 char:2                                       +     Set-ExecutionPolicy Bypass -Scope
+ Process -Force; Invoke-Expressi ...                                             +     ~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   + CategoryInfo          : PermissionDenied: (:) [Set-ExecutionPolicy], Sec
+urityException                                + FullyQualifiedErrorId : ExecutionPolicyOverri
+de,Microsoft.PowerShell.Commands.SetExecutionPolicyCommand
+
+    Deployment operation progress: Microsoft.ZuneMusic_10.19071.19011.0_x64__8wekyb3d8bbwe 0%
+ Processing                    Deployment operation progress: Microsoft.ZuneVideo_10.19071.19
+011.0_x64__8wekyb3d8bbwe 0% Processing                    Deployment operation progress: Micr
+osoft.ScreenSketch_10.1907.2471.0_x64__8wekyb3d8bbwe 0% Processing                   Deployme
+nt operation progress: E046963F.LenovoCompanion_10.2004.12.0_x64__k1h2ywk1493x8 100% Complete
+d                  Deployment operation progress: Microsoft.DesktopAppInstaller_1.0.30251.0_x
+64__8wekyb3d8bbwe 0% Processing               Deployment operation progress: Microsoft.StoreP
+urchaseApp_11811.1001.18.0_x64__8wekyb3d8bbwe 0% Processing              Deployment operation
+ progress: Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe 100% Completed
+       Deployment operation progress: Microsoft.XboxApp_48.49.31001.0_x64__8wekyb3d8bbwe 100%
+ Completed                        Deployment operation progress: Microsoft.XboxIdentityProvid
+er_12.50.6001.0_x64__8wekyb3d8bbwe 100% Completed            Deployment operation progress: M
+icrosoft.XboxSpeechToTextOverlay_1.17.29001.0_x64__8wekyb3d8bbwe 0% Processing          Deplo
+yment operation progress: Microsoft.XboxGameOverlay_1.46.11001.0_x64__8wekyb3d8bbwe 0% Proces
+sing                  Deployment operation progress: Microsoft.XboxGameCallableUI_1000.19041.
+1.0_neutral_neutral_cw5n1h2txyewy Initialized    Deployment operation progress: Microsoft.Xbo
+xGamingOverlay_2.34.28001.0_x64__8wekyb3d8bbwe 0% Processing                Deployment operat
+ion progress: Microsoft.Xbox.TCUI_1.23.28002.0_x64__8wekyb3d8bbwe 0% Processing
+          22 activities not shown...
+
+                                                                 (i.e. C:\ProgramData\chocola
+tey\lib\yourPackageName).
+A shim file for the command line goes to 'C:\ProgramData\chocolatey\bin'
+  and points to an executable in 'C:\ProgramData\chocolatey\lib\yourPackageName'.
+
+Creating Chocolatey folders if they do not already exist.
+
+WARNING: You can safely ignore errors related to missing log files when
+  upgrading from a version of Chocolatey less than 0.9.9.
+  'Batch file could not be found' is also safe to ignore.
+  'The system cannot find the file specified' - also safe.
+chocolatey.nupkg file not installed in lib.
+ Attempting to locate it from bootstrapper.
+PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+WARNING: Not setting tab completion: Profile file does not exist at
+'C:\Users\Saki\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+Chocolatey (choco.exe) is now ready.
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of functions.
+You may need to shut down and restart powershell and/or consoles
+ first prior to using choco.
+Ensuring Chocolatey commands are on the path
+Ensuring chocolatey.nupkg is in the lib folder
+Choco is installing ...
+Chocolatey v0.10.15
+2 validations performed. 1 success(es), 1 warning(s), and 0 error(s).
+
+Validation Warnings:
+ - A pending system reboot request has been detected, however, this is
+   being ignored due to the current Chocolatey configuration.  If you
+   want to halt when this occurs, then either set the global feature
+   using:
+     choco feature enable -name=exitOnRebootDetected
+   or pass the option --exit-when-reboot-detected.
+
+Installing the following packages:
+kb2919442;kb2919355;dotnet4.5.2;dotnet4.6.1;7zip.portable;conemu;totalcommander;opera;winrar;
+sublimetext3;utorrent;adobereader;procmon;git.install;discord;evernote;discord.install;itunes
+;tor-browser;autoit;launchy;teamviewer;notepadplusplus;malwarebytes;steam;brackets;nodejs;ver
+acrypt;notepadplusplus.install;k-litecodecpackfull;checksum;nodejs.install;dropbox;winamp;aut
+ohotkey;vscode;firefox;git;googlechrome;ccleaner;slack;filezilla;dumo;drawio;gpg4win;heroku-c
+li;hwmonitor;irfanview;iris;nirlauncher;sysinternals
+By installing you accept licenses for the packages.
+Progress: Downloading KB2919442 1.0.20160915... 100%
+
+KB2919442 v1.0.20160915 [Approved]
+kb2919442 package files install completed. Performing other installation steps.
+Skipping installation because this hotfix only applies to Windows 8.1 and Windows Server 2012
+ R2.
+ The install of kb2919442 was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading KB2919355 1.0.20160915... 100%
+
+KB2919355 v1.0.20160915 [Approved]
+kb2919355 package files install completed. Performing other installation steps.
+Skipping installation because this hotfix only applies to Windows 8.1 and Windows Server 2012
+ R2.
+ The install of kb2919355 was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading DotNet4.5.2 4.5.2.20140902... 100%
+
+DotNet4.5.2 v4.5.2.20140902 [Approved]
+dotnet4.5.2 package files install completed. Performing other installation steps.
+Microsoft .Net 4.5.2 Framework is already installed on your machine.
+ The install of dotnet4.5.2 was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading DotNet4.6.1 4.6.01055.20170308... 100%
+
+DotNet4.6.1 v4.6.01055.20170308 [Approved]
+dotnet4.6.1 package files install completed. Performing other installation steps.
+Microsoft .NET Framework 4.6.1 or later is already installed
+ The install of dotnet4.6.1 was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading 7zip.portable 19.0... 100%
+
+7zip.portable v19.0 [Approved]
+7zip.portable package files install completed. Performing other installation steps.
+Installing 64 bit version
+Extracting C:\ProgramData\chocolatey\lib\7zip.portable\tools\7zip_x64.exe to C:\ProgramData\c
+hocolatey\lib\7zip.portable\tools...
+C:\ProgramData\chocolatey\lib\7zip.portable\tools
+Extracting C:\ProgramData\chocolatey\lib\7zip.portable\tools\7zip_extra.7z to C:\ProgramData\
+chocolatey\lib\7zip.portable\tools\7z-extra...
+C:\ProgramData\chocolatey\lib\7zip.portable\tools\7z-extra
+ ShimGen has successfully created a shim for 7z.exe
+ ShimGen has successfully created a shim for 7zFM.exe
+ ShimGen has successfully created a shim for 7zG.exe
+ ShimGen has successfully created a shim for 7za.exe
+ The install of 7zip.portable was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\7zip.portable\tools\7z-extra'
+Progress: Downloading ConEmu 21.2.6.0... 100%
+
+ConEmu v21.2.6.0 [Approved]
+conemu package files install completed. Performing other installation steps.
+Downloading ConEmu 64 bit
+  from 'https://github.com/Maximus5/ConEmu/releases/download/v21.02.06/ConEmuSetup.210206.exe
+'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\ConEmu\21.
+2.6.0\ConEmuSetup.210206.exe (7.11 MB).
+Download of ConEmuSetup.210206.exe (7.11 MB) completed.
+Hashes match.
+Installing ConEmu...
+ConEmu has been installed.
+  conemu may be able to be automatically uninstalled.
+ The install of conemu was successful.
+  Software installed as 'exe', install location is likely default.
+Progress: Downloading chocolatey-core.extension 1.3.5.1... 100%
+Progress: Downloading TotalCommander 9.51... 100%
+Progress: Downloading autohotkey.portable 1.1.33.02... 100%
+
+chocolatey-core.extension v1.3.5.1 [Approved]
+chocolatey-core.extension package files install completed. Performing other installation step
+s.
+ Installed/updated chocolatey-core extensions.
+ The install of chocolatey-core.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-core'
+
+autohotkey.portable v1.1.33.02 [Approved]
+autohotkey.portable package files install completed. Performing other installation steps.
+Extracting C:\ProgramData\chocolatey\lib\autohotkey.portable\tools\AutoHotkey_1.1.33.02.zip t
+o C:\ProgramData\chocolatey\lib\autohotkey.portable\tools...
+C:\ProgramData\chocolatey\lib\autohotkey.portable\tools
+Removing ANSI-32 version
+ ShimGen has successfully created a shim for AutoHotkey.exe
+ ShimGen has successfully created a shim for Ahk2Exe.exe
+ The install of autohotkey.portable was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\autohotkey.portable\tools'
+
+TotalCommander v9.51 [Approved]
+totalcommander package files install completed. Performing other installation steps.
+Extracting C:\ProgramData\chocolatey\lib\TotalCommander\tools\tcmd951x32_64.exe to C:\Users\S
+aki\AppData\Local\Temp\chocolatey\TotalCommander\9.51...
+C:\Users\Saki\AppData\Local\Temp\chocolatey\TotalCommander\9.51
+Extracting C:\ProgramData\chocolatey\lib\TotalCommander\tools\installer.zip to C:\Users\Saki\
+AppData\Local\Temp\chocolatey\TotalCommander\9.51...
+C:\Users\Saki\AppData\Local\Temp\chocolatey\TotalCommander\9.51
+Installing 64-bit totalcommander...
+totalcommander has been installed.
+totalcommander installed to 'C:\Program Files\totalcmd'
+Setting system environment COMMANDER_PATH
+totalcommander registered as tc
+  totalcommander may be able to be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of totalcommander was successful.
+  Software installed to 'C:\Users\Saki\AppData\Local\Temp\chocolatey\TotalCommander\9.51'
+Progress: Downloading Opera 74.0.3911.107... 100%
+
+Opera v74.0.3911.107 [Approved]
+opera package files install completed. Performing other installation steps.
+Downloading Opera 64 bit
+  from 'https://get.geo.opera.com/pub/opera/desktop/74.0.3911.107/win/Opera_74.0.3911.107_Set
+up_x64.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\Opera\74.0
+.3911.107\Opera_74.0.3911.107_Setup_x64.exe (66.13 MB).
+Download of Opera_74.0.3911.107_Setup_x64.exe (66.13 MB) completed.
+Hashes match.
+Installing Opera...
+[0212/170235.221:INFO:assistant_installer_main.cc(169)] Running assistant installer with comm
+and line "C:\Users\Saki\AppData\Local\Temp\chocolatey\.opera\Opera Installer Temp\opera_packa
+ge_202102121702291\assistant\assistant_installer.exe" --version
+[0212/170242.139:ERROR:ipc_sender.cc(109)] Cannot write to mailslot: Reached the end of the f
+ile. (0x26)
+[0212/170242.139:ERROR:ipc_sender.cc(109)] Cannot write to mailslot: Reached the end of the f
+ile. (0x26)
+Opera has been installed.
+Only an exit code of non-zero will fail the package by default. Set
+ `--failonstderr` if you want error messages to also fail a script. See
+ `choco -h` for details.
+  opera may be able to be automatically uninstalled.
+ The install of opera was successful.
+  Software installed to 'C:\Program Files\Opera'
+Progress: Downloading winrar 6.0.0.20210102... 100%
+
+winrar v6.0.0.20210102 [Approved]
+winrar package files install completed. Performing other installation steps.
+Downloading winrar 64 bit
+  from 'https://www.rarlab.com/rar/winrar-x64-600.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\winrar\6.0
+.0.20210102\winrar-x64-600.exe (3.18 MB).
+Download of winrar-x64-600.exe (3.18 MB) completed.
+Hashes match.
+Installing winrar...
+winrar has been installed.
+ The install of winrar was successful.
+  Software installed as 'exe', install location is likely default.
+Progress: Downloading SublimeText3 3.2.2... 100%
+
+SublimeText3 v3.2.2 [Approved]
+sublimetext3 package files install completed. Performing other installation steps.
+Downloading SublimeText3 64 bit
+  from 'https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64%20Setup.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\SublimeTex
+t3\3.2.2\Sublime Text Build 3211 x64 Setup.exe (10.42 MB).
+Download of Sublime Text Build 3211 x64 Setup.exe (10.42 MB) completed.
+Hashes match.
+Installing SublimeText3...
+SublimeText3 has been installed.
+  sublimetext3 can be automatically uninstalled.
+ The install of sublimetext3 was successful.
+  Software installed to 'C:\Program Files\Sublime Text 3\'
+Progress: Downloading chocolatey-misc-helpers.extension 0.0.4... 100%
+Progress: Downloading uTorrent 3.5.5.45852... 100%
+
+chocolatey-misc-helpers.extension v0.0.4 [Approved]
+chocolatey-misc-helpers.extension package files install completed. Performing other installat
+ion steps.
+ Installed/updated chocolatey-misc-helpers extensions.
+ The install of chocolatey-misc-helpers.extension was successful.
+  Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-misc-helpers'
+
+uTorrent v3.5.5.45852 [Approved]
+utorrent package files install completed. Performing other installation steps.
+WARNING: Url has SSL/TLS available, switching to HTTPS for download
+Downloading utorrent
+  from 'https://download-hr.utorrent.com/track/stable/endpoint/utorrent/os/windows'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\uTorrent\3
+.5.5.45852\uTorrent.exe (4.91 MB).
+Download of uTorrent.exe (4.91 MB) completed.
+Error - hashes do not match. Actual value was 'E11B8C1D3BA335DC63A206CDB79CB6927C2053BF6CEAED
+9CE3ED9CE849E76C32'.
+ERROR: Checksum for 'C:\Users\Saki\AppData\Local\Temp\chocolatey\uTorrent\3.5.5.45852\uTorren
+t.exe' did not meet 'C1EC45E575687AD3F37BD7C8679EEFBE94A90A6873CD4050D581FA97AF8ED9BC' for ch
+ecksum type 'sha256'. Consider passing the actual checksums through with --checksum --checksu
+m64 once you validate the checksums are appropriate. A less secure option is to pass --ignore
+-checksums if necessary.
+The install of utorrent was NOT successful.
+Error while running 'C:\ProgramData\chocolatey\lib\uTorrent\tools\chocolateyinstall.ps1'.
+ See log for details.
+Progress: Downloading adobereader 2021.001.20135... 100%
+
+adobereader v2021.001.20135 [Approved]
+adobereader package files install completed. Performing other installation steps.
+True
+True
+Downloading adobereader
+  from 'https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1901020064/AcroRdrDC1901
+020064_MUI.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\AcroRdrDC1
+901020064_MUI.exe (261.05 MB).
+Download of AcroRdrDC1901020064_MUI.exe (261.05 MB) completed.
+Hashes match.
+Configuring manual update checks and installs.
+Installing adobereader (installer)...
+adobereader (installer) has been installed.
+Downloading adobereader (update)
+  from 'https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120135/AcroRdrDCUpd2
+100120135_MUI.msp'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\AcroRdrDCU
+pd2100120135_MUI.msp (135.22 MB).
+Download of AcroRdrDCUpd2100120135_MUI.msp (135.22 MB) completed.
+Hashes match.
+ERROR: Running ["C:\Windows\System32\msiexec.exe" /p "C:\Users\Saki\AppData\Local\Temp\chocol
+atey\AcroRdrDCUpd2100120135_MUI.msp" /norestart /quiet ALLUSERS=1 EULA_ACCEPT=YES  DISABLEDES
+KTOPSHORTCUT=1 DISABLE_ARM_SERVICE_INSTALL=1 UPDATE_MODE=0 /L*v "C:\Users\Saki\AppData\Local\
+Temp\chocolatey\adobereader.2021.001.20135.Update.log"] was not successful. Exit code was '30
+10'. See log for possible error messages.
+  adobereader may be able to be automatically uninstalled.
+ The install of adobereader was successful.
+  Software installed to 'C:\Program Files (x86)\Adobe\Acrobat Reader DC\'
+Progress: Downloading procmon 3.61... 100%
+
+procmon v3.61 [Approved]
+procmon package files install completed. Performing other installation steps.
+Downloading procmon
+  from 'https://download.sysinternals.com/files/ProcessMonitor.zip'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\procmon\3.
+61\ProcessMonitor.zip (1.96 MB).
+Download of ProcessMonitor.zip (1.96 MB) completed.
+Hashes match.
+Extracting C:\Users\Saki\AppData\Local\Temp\chocolatey\procmon\3.61\ProcessMonitor.zip to C:\
+ProgramData\chocolatey\lib\procmon\tools...
+C:\ProgramData\chocolatey\lib\procmon\tools
+ ShimGen has successfully created a gui shim for Procmon.exe
+ ShimGen has successfully created a shim for Procmon64.exe
+ ShimGen has successfully created a shim for Procmon64a.exe
+ The install of procmon was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\procmon\tools'
+Progress: Downloading git.install 2.30.1... 100%
+
+git.install v2.30.1 [Approved]
+git.install package files install completed. Performing other installation steps.
+Using Git LFS
+Installing 64-bit git.install...
+git.install has been installed.
+git.install installed to 'C:\Program Files\Git'
+  git.install can be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of git.install was successful.
+  Software installed to 'C:\Program Files\Git\'
+Progress: Downloading discord.install 0.0.309... 100%
+Progress: Downloading discord 0.0.309... 100%
+
+discord.install v0.0.309 [Approved]
+discord.install package files install completed. Performing other installation steps.
+Downloading discord.install 64 bit
+  from 'https://dl.discordapp.net/apps/win/0.0.309/DiscordSetup.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\discord.in
+stall\0.0.309\DiscordSetup.exe (65.63 MB).
+Download of DiscordSetup.exe (65.63 MB) completed.
+Hashes match.
+Installing discord.install...
+discord.install has been installed.
+ The install of discord.install was successful.
+  Software installed as 'exe', install location is likely default.
+
+discord v0.0.309 [Approved]
+discord package files install completed. Performing other installation steps.
+ The install of discord was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading evernote 10.8.4... 100%
+
+evernote v10.8.4 [Approved]
+evernote package files install completed. Performing other installation steps.
+Detected:  Microsoft Windows 10 Pro
+Downloading evernote
+  from 'https://cdn1.evernote.com/boron/win/builds/Evernote-10.8.4-win-ddl-ga-2349-setup.exe'
+
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\evernote\1
+0.8.4\Evernote-10.8.4-win-ddl-ga-2349-setup.exe (250.29 MB).
+Download of Evernote-10.8.4-win-ddl-ga-2349-setup.exe (250.29 MB) completed.
+Hashes match.
+Installing evernote...
+evernote has been installed.
+  evernote can be automatically uninstalled.
+ The install of evernote was successful.
+  Software installed to 'C:\Users\Saki\AppData\Local\Discord'
+discord.install v0.0.309 already installed.
+ Use --force to reinstall, specify a version to install, or try upgrade.
+Progress: Downloading iTunes 12.11.0.26... 100%
+
+iTunes v12.11.0.26 [Approved]
+itunes package files install completed. Performing other installation steps.
+Downloading iTunes 64 bit
+  from 'https://secure-appldnld.apple.com/itunes12/001-82541-20201113-960CFAAE-25EC-11EB-864A
+-F0B0133BD450/iTunes64Setup.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\iTunes\12.
+11.0.26\iTunes64Setup.exe (191.24 MB).
+Download of iTunes64Setup.exe (191.24 MB) completed.
+Hashes match.
+Extracting C:\Users\Saki\AppData\Local\Temp\chocolatey\iTunes\12.11.0.26\iTunes64Setup.exe to
+ C:\Users\Saki\AppData\Local\Temp\chocolatey\iTunes\12.11.0.26...
+C:\Users\Saki\AppData\Local\Temp\chocolatey\iTunes\12.11.0.26
+Installing AppleMobileDeviceSupport64.msi...
+AppleMobileDeviceSupport64.msi has been installed.
+Installing Bonjour64.msi...
+Bonjour64.msi has been installed.
+Installing iTunes64.msi...
+iTunes64.msi has been installed.
+  itunes may be able to be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of itunes was successful.
+  Software installed to 'C:\Program Files (x86)\Bonjour\'
+Progress: Downloading tor-browser 10.0.11... 100%
+
+tor-browser v10.0.11 [Approved]
+tor-browser package files install completed. Performing other installation steps.
+Using Language code: 'en-US'
+Downloading tor-browser 64 bit
+  from 'https://www.torproject.org/dist/torbrowser/10.0.11/torbrowser-install-win64-10.0.11_e
+n-US.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\tor-browser\10.0.11\t
+orbrowser-install-win64-10.0.11_en-US.exe (69.21 MB).
+Download of torbrowser-install-win64-10.0.11_en-US.exe (69.21 MB) completed.
+Hashes match.
+Installing tor-browser...
+tor-browser has been installed.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of tor-browser was successful.
+  Software installed as 'exe', install location is likely default.
+Progress: Downloading autoit.install 3.3.14.5... 100%
+Progress: Downloading autoit 3.3.14.5... 100%
+
+autoit.install v3.3.14.5 [Approved]
+autoit.install package files install completed. Performing other installation steps.
+Installing autoit.install...
+autoit.install has been installed.
+  autoit.install may be able to be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of autoit.install was successful.
+  Software installed as 'exe', install location is likely default.
+
+autoit v3.3.14.5 [Approved]
+autoit package files install completed. Performing other installation steps.
+ The install of autoit was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading launchy 2.5.0.20201016... 100%
+
+launchy v2.5.0.20201016 [Approved]
+launchy package files install completed. Performing other installation steps.
+WARNING: Url has SSL/TLS available, switching to HTTPS for download
+Downloading launchy
+  from 'https://www.launchy.net/downloads/win/Launchy2.5.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\launchy\2.
+5.0.20201016\Launchy2.5.exe (4.34 MB).
+Download of Launchy2.5.exe (4.34 MB) completed.
+Hashes match.
+Installing launchy...
+launchy has been installed.
+  launchy can be automatically uninstalled.
+ The install of launchy was successful.
+  Software installed to 'C:\Program Files (x86)\Launchy\'
+Progress: Downloading teamviewer 15.14.5... 100%
+
+teamviewer v15.14.5 [Approved]
+teamviewer package files install completed. Performing other installation steps.
+Downloading teamviewer
+  from 'https://download.teamviewer.com/download/version_15x/TeamViewer_Setup.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\teamviewer
+\15.14.5\TeamViewer_Setup.exe (27.99 MB).
+Download of TeamViewer_Setup.exe (27.99 MB) completed.
+Hashes match.
+Installing teamviewer...
+teamviewer has been installed.
+  teamviewer may be able to be automatically uninstalled.
+ The install of teamviewer was successful.
+  Software installed to 'C:\Program Files (x86)\TeamViewer'
+Progress: Downloading notepadplusplus.install 7.9.2... 100%
+Progress: Downloading notepadplusplus 7.9.2... 100%
+
+notepadplusplus.install v7.9.2 [Approved]
+notepadplusplus.install package files install completed. Performing other installation steps.
+
+Installing 64-bit notepadplusplus.install...
+notepadplusplus.install has been installed.
+notepadplusplus.install installed to 'C:\Program Files\Notepad++'
+Added C:\ProgramData\chocolatey\bin\notepad++.exe shim pointed to 'c:\program files\notepad++
+\notepad++.exe'.
+  notepadplusplus.install may be able to be automatically uninstalled.
+ The install of notepadplusplus.install was successful.
+  Software installed as 'exe', install location is likely default.
+
+notepadplusplus v7.9.2 [Approved]
+notepadplusplus package files install completed. Performing other installation steps.
+ The install of notepadplusplus was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading malwarebytes 4.3.0.206... 100%
+
+malwarebytes v4.3.0.206 [Approved]
+malwarebytes package files install completed. Performing other installation steps.
+Downloading malwarebytes
+  from 'https://downloads.malwarebytes.com/file/mb-windows'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\malwarebyt
+es\4.3.0.206\MBSetup.exe (1.99 MB).
+Download of MBSetup.exe (1.99 MB) completed.
+Hashes match.
+Installing malwarebytes...
+malwarebytes has been installed.
+  malwarebytes may be able to be automatically uninstalled.
+ The install of malwarebytes was successful.
+  Software installed to 'C:\Program Files\Malwarebytes\Anti-Malware'
+Progress: Downloading steam 3.0.1.20190215... 100%
+
+steam v3.0.1.20190215 [Approved]
+steam package files install completed. Performing other installation steps.
+  ** Steam currently NOT running.
+WARNING: Url has SSL/TLS available, switching to HTTPS for download
+Downloading steam
+  from 'https://media.steampowered.com/client/installer/SteamSetup.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\steam\3.0.
+1.20190215\SteamSetup.exe (1.69 MB).
+Download of SteamSetup.exe (1.69 MB) completed.
+Error - hashes do not match. Actual value was '874788B45DFC043289BA05387E83F27B4A046004A88A4C
+5EE7C073187FF65B9D'.
+ERROR: Checksum for 'C:\Users\Saki\AppData\Local\Temp\chocolatey\steam\3.0.1.20190215\SteamSe
+tup.exe' did not meet '3bc6942fe09f10ed3447bccdcf4a70ed369366fef6b2c7f43b541f1a3c5d1c51' for
+checksum type 'sha256'. Consider passing the actual checksums through with --checksum --check
+sum64 once you validate the checksums are appropriate. A less secure option is to pass --igno
+re-checksums if necessary.
+The install of steam was NOT successful.
+Error while running 'C:\ProgramData\chocolatey\lib\steam\tools\chocolateyInstall.ps1'.
+ See log for details.
+Progress: Downloading Brackets 1.14.2... 100%
+
+Brackets v1.14.2 [Approved]
+brackets package files install completed. Performing other installation steps.
+Installing Brackets...
+Brackets has been installed.
+  brackets may be able to be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of brackets was successful.
+  Software installed to 'C:\Program Files (x86)\Brackets\'
+Progress: Downloading nodejs.install 15.8.0... 100%
+Progress: Downloading nodejs 15.8.0... 100%
+
+nodejs.install v15.8.0 [Approved]
+nodejs.install package files install completed. Performing other installation steps.
+Installing 64 bit version
+Installing nodejs.install...
+nodejs.install has been installed.
+  nodejs.install may be able to be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of nodejs.install was successful.
+  Software installed as 'msi', install location is likely default.
+
+nodejs v15.8.0 [Approved]
+nodejs package files install completed. Performing other installation steps.
+ The install of nodejs was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading veracrypt 1.24.20200814... 100%
+
+veracrypt v1.24.20200814 [Approved]
+veracrypt package files install completed. Performing other installation steps.
+Downloading veracrypt
+  from 'https://launchpad.net/veracrypt/trunk/1.24-update7/+download/VeraCrypt%20Setup%201.24
+-Update7.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\veracrypt\
+1.24.20200814\VeraCrypt Setup 1.24-Update7.exe (34.52 MB).
+Download of VeraCrypt Setup 1.24-Update7.exe (34.52 MB) completed.
+Hashes match.
+Installing veracrypt...
+veracrypt has been installed.
+  veracrypt may be able to be automatically uninstalled.
+ The install of veracrypt was successful.
+  Software installed as 'EXE', install location is likely default.
+notepadplusplus.install v7.9.2 already installed.
+ Use --force to reinstall, specify a version to install, or try upgrade.
+Progress: Downloading k-litecodecpackfull 15.9.5... 100%
+
+k-litecodecpackfull v15.9.5 [Approved]
+k-litecodecpackfull package files install completed. Performing other installation steps.
+Downloading k-litecodecpackfull
+  from 'https://files3.codecguide.com/K-Lite_Codec_Pack_1595_Full.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\k-litecode
+cpackfull\15.9.5\K-Lite_Codec_Pack_1595_Full.exe (48.21 MB).
+Download of K-Lite_Codec_Pack_1595_Full.exe (48.21 MB) completed.
+Hashes match.
+Installing k-litecodecpackfull...
+k-litecodecpackfull has been installed.
+  k-litecodecpackfull can be automatically uninstalled.
+ The install of k-litecodecpackfull was successful.
+  Software installed to 'C:\Program Files (x86)\K-Lite Codec Pack\'
+Progress: Downloading checksum 0.2.0... 100%
+
+checksum v0.2.0 [Approved]
+checksum package files install completed. Performing other installation steps.
+ ShimGen has successfully created a shim for checksum.exe
+ The install of checksum was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+nodejs.install v15.8.0 already installed.
+ Use --force to reinstall, specify a version to install, or try upgrade.
+Progress: Downloading dropbox 115.4.601... 100%
+
+dropbox v115.4.601 [Approved]
+dropbox package files install completed. Performing other installation steps.
+Dropbox 115.4.601 is already installed.
+ The install of dropbox was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading winamp 5.666... 100%
+
+winamp v5.666 [Approved]
+winamp package files install completed. Performing other installation steps.
+Installing winamp...
+winamp has been installed.
+  winamp may be able to be automatically uninstalled.
+ The install of winamp was successful.
+  Software installed as 'exe', install location is likely default.
+Progress: Downloading autohotkey.install 1.1.33.02... 100%
+Progress: Downloading autohotkey 1.1.33.02... 100%
+
+autohotkey.install v1.1.33.02 [Approved]
+autohotkey.install package files install completed. Performing other installation steps.
+Installing autohotkey.install...
+autohotkey.install has been installed.
+AutoHotkey* installed to 'C:\Program Files\AutoHotkey'
+AutoHotkey* registered as AutoHotkey
+  autohotkey.install may be able to be automatically uninstalled.
+ The install of autohotkey.install was successful.
+  Software installed as 'exe', install location is likely default.
+
+autohotkey v1.1.33.02 [Approved]
+autohotkey package files install completed. Performing other installation steps.
+ The install of autohotkey was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading vscode.install 1.53.2... 100%
+Progress: Downloading vscode 1.53.2... 100%
+
+vscode.install v1.53.2 [Approved]
+vscode.install package files install completed. Performing other installation steps.
+Merge Tasks: !runCode, desktopicon, quicklaunchicon, addcontextmenufiles, addcontextmenufolde
+rs, associatewithfiles, addtopath
+Downloading vscode.install 64 bit
+  from 'https://az764295.vo.msecnd.net/stable/622cb03f7e070a9670c94bae1a45d78d7181fbd4/VSCode
+Setup-x64-1.53.2.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\vscode.ins
+tall\1.53.2\VSCodeSetup-x64-1.53.2.exe (67.29 MB).
+Download of VSCodeSetup-x64-1.53.2.exe (67.29 MB) completed.
+Hashes match.
+Installing vscode.install...
+vscode.install has been installed.
+  vscode.install can be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of vscode.install was successful.
+  Software installed to 'C:\Program Files\Microsoft VS Code\'
+
+vscode v1.53.2 [Approved]
+vscode package files install completed. Performing other installation steps.
+ The install of vscode was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading Firefox 85.0.2... 100%
+
+Firefox v85.0.2 [Approved]
+firefox package files install completed. Performing other installation steps.
+Downloading Firefox 64 bit
+  from 'https://download.mozilla.org/?product=firefox-85.0.2-ssl&os=win64&lang=en-US'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\Firefox\85
+.0.2\Firefox Setup 85.0.2.exe (53.17 MB).
+Download of Firefox Setup 85.0.2.exe (53.17 MB) completed.
+Hashes match.
+Installing Firefox...
+Firefox has been installed.
+  firefox may be able to be automatically uninstalled.
+ The install of firefox was successful.
+  Software installed to 'C:\Program Files\Mozilla Firefox'
+Progress: Downloading git 2.30.1... 100%
+
+git v2.30.1 [Approved]
+git package files install completed. Performing other installation steps.
+ The install of git was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+Progress: Downloading GoogleChrome 88.0.4324.150... 100%
+
+GoogleChrome v88.0.4324.150 [Approved]
+googlechrome package files install completed. Performing other installation steps.
+Downloading googlechrome 64 bit
+  from 'https://dl.google.com/tag/s/dl/chrome/install/googlechromestandaloneenterprise64.msi'
+
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\GoogleChro
+me\88.0.4324.150\googlechromestandaloneenterprise64.msi (69.91 MB).
+Download of googlechromestandaloneenterprise64.msi (69.91 MB) completed.
+Hashes match.
+Installing googlechrome...
+googlechrome has been installed.
+  googlechrome may be able to be automatically uninstalled.
+ The install of googlechrome was successful.
+  Software installed as 'MSI', install location is likely default.
+Progress: Downloading ccleaner 5.76.8269... 100%
+
+ccleaner v5.76.8269 [Approved]
+ccleaner package files install completed. Performing other installation steps.
+Downloading ccleaner
+  from 'https://download.ccleaner.com/ccsetup576.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\ccleaner\5
+.76.8269\ccsetup576.exe (29.17 MB).
+Download of ccsetup576.exe (29.17 MB) completed.
+Hashes match.
+Installing ccleaner...
+ccleaner has been installed.
+  ccleaner may be able to be automatically uninstalled.
+ The install of ccleaner was successful.
+  Software installed to 'C:\Program Files\CCleaner'
+Progress: Downloading slack 4.12.2... 100%
+
+slack v4.12.2 [Approved]
+slack package files install completed. Performing other installation steps.
+Downloading slack 64 bit
+  from 'https://downloads.slack-edge.com/releases/windows/4.12.2/prod/x64/slack-standalone-4.
+12.2.0.msi'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\slack\4.12
+.2\slack-standalone-4.12.2.0.msi (81.32 MB).
+Download of slack-standalone-4.12.2.0.msi (81.32 MB) completed.
+Hashes match.
+Installing slack...
+slack has been installed.
+  slack may be able to be automatically uninstalled.
+ The install of slack was successful.
+  Software installed as 'msi', install location is likely default.
+Progress: Downloading filezilla 3.52.2... 100%
+
+filezilla v3.52.2 [Approved]
+filezilla package files install completed. Performing other installation steps.
+Installing 64-bit filezilla...
+filezilla has been installed.
+  filezilla may be able to be automatically uninstalled.
+ The install of filezilla was successful.
+  Software installed to 'C:\Program Files\FileZilla FTP Client'
+Progress: Downloading dumo 2.23.2.112... 100%
+
+dumo v2.23.2.112 [Approved]
+dumo package files install completed. Performing other installation steps.
+Downloading dumo
+  from 'https://kcsoftwares.com/files/dumo_lite.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\dumo\2.23.
+2.112\dumo_lite.exe (3.67 MB).
+Download of dumo_lite.exe (3.67 MB) completed.
+Hashes match.
+Installing dumo...
+dumo has been installed.
+Closing DUmo...
+0
+  dumo can be automatically uninstalled.
+ The install of dumo was successful.
+  Software installed to 'C:\Program Files (x86)\KC Softwares\DUMo\'
+Progress: Downloading drawio 14.1.8... 100%
+
+drawio v14.1.8 [Approved]
+drawio package files install completed. Performing other installation steps.
+Downloading drawio
+  from 'https://github.com/jgraph/drawio-desktop/releases/download/v14.1.8/draw.io-14.1.8-win
+dows-installer.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\drawio\14.
+1.8\draw.io-14.1.8-windows-installer.exe (71.65 MB).
+Download of draw.io-14.1.8-windows-installer.exe (71.65 MB) completed.
+Hashes match.
+Installing drawio...
+drawio has been installed.
+  drawio can be automatically uninstalled.
+ The install of drawio was successful.
+  Software installed as 'EXE', install location is likely default.
+Progress: Downloading Gpg4win 3.1.15... 100%
+
+Gpg4win v3.1.15 [Approved]
+gpg4win package files install completed. Performing other installation steps.
+Installing gpg4win...
+gpg4win has been installed.
+  gpg4win may be able to be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of gpg4win was successful.
+  Software installed to 'C:\Program Files (x86)\Gpg4win\..\GnuPG'
+Progress: Downloading heroku-cli 7.47.12.0... 100%
+
+heroku-cli v7.47.12.0 [Approved]
+heroku-cli package files install completed. Performing other installation steps.
+Installing x64 bit version
+Installing heroku-cli...
+heroku-cli has been installed.
+  heroku-cli may be able to be automatically uninstalled.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of heroku-cli was successful.
+  Software installed as 'EXE', install location is likely default.
+Progress: Downloading hwmonitor 1.43.0.20201124... 100%
+
+hwmonitor v1.43.0.20201124 [Approved]
+hwmonitor package files install completed. Performing other installation steps.
+WARNING: Url has SSL/TLS available, switching to HTTPS for download
+Downloading hwmonitor
+  from 'https://download.cpuid.com/hwmonitor/hwmonitor_1.43.exe'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\hwmonitor\
+1.43.0.20201124\hwmonitor_1.43.exe (1.26 MB).
+Download of hwmonitor_1.43.exe (1.26 MB) completed.
+Hashes match.
+Installing hwmonitor...
+hwmonitor has been installed.
+  hwmonitor can be automatically uninstalled.
+ The install of hwmonitor was successful.
+  Software installed to 'C:\Program Files\CPUID\HWMonitor\'
+Progress: Downloading IrfanView 4.57... 100%
+
+IrfanView v4.57 [Approved]
+irfanview package files install completed. Performing other installation steps.
+Installing 64-bit irfanview...
+irfanview has been installed.
+  irfanview may be able to be automatically uninstalled.
+ The install of irfanview was successful.
+  Software installed to 'C:\Program Files\IrfanView\'
+Progress: Downloading iris 1.1.8... 100%
+
+iris v1.1.8 [Approved]
+iris package files install completed. Performing other installation steps.
+Attempt to get headers for https://raw.githubusercontent.com/danielng01/Iris-Builds/master/Wi
+ndows/Iris-1.1.8.exe failed.
+  The remote file either doesn't exist, is unauthorized, or is forbidden for url 'https://raw
+.githubusercontent.com/danielng01/Iris-Builds/master/Windows/Iris-1.1.8.exe'. Exception calli
+ng "GetResponse" with "0" argument(s): "The remote server returned an error: (404) Not Found.
+"
+Downloading iris
+  from 'https://raw.githubusercontent.com/danielng01/Iris-Builds/master/Windows/Iris-1.1.8.ex
+e'
+ERROR: The remote file either doesn't exist, is unauthorized, or is forbidden for url 'https:
+//raw.githubusercontent.com/danielng01/Iris-Builds/master/Windows/Iris-1.1.8.exe'. Exception
+calling "GetResponse" with "0" argument(s): "The remote server returned an error: (404) Not F
+ound."
+This package is likely not broken for licensed users - see https://chocolatey.org/docs/featur
+es-private-cdn.
+The install of iris was NOT successful.
+Error while running 'C:\ProgramData\chocolatey\lib\iris\tools\chocolateyinstall.ps1'.
+ See log for details.
+Progress: Downloading nirlauncher 1.23.39... 100%
+
+nirlauncher v1.23.39 [Approved]
+nirlauncher package files install completed. Performing other installation steps.
+Extracting 64-bit C:\ProgramData\chocolatey\lib\nirlauncher\tools\nirsoft_package_1.23.39.zip
+ to C:\tools\NirLauncher...
+C:\tools\NirLauncher
+64 bit architecture - overwriting x32 apps with x64 versions
+PATH environment variable does not have C:\tools\NirLauncher\Nirsoft in it. Adding...
+nirlauncher registered as nirlauncher
+Added C:\ProgramData\chocolatey\bin\nirlauncher.exe shim pointed to 'c:\tools\nirlauncher\nir
+launcher.exe'.
+Environment Vars (like PATH) have changed. Close/reopen your shell to
+ see the changes (or in powershell/cmd.exe just type `refreshenv`).
+ The install of nirlauncher was successful.
+  Software installed to 'C:\tools\NirLauncher'
+Progress: Downloading sysinternals 2021.1.19... 100%
+
+sysinternals v2021.1.19 [Approved]
+sysinternals package files install completed. Performing other installation steps.
+Sysinternals Suite is going to be installed in 'C:\ProgramData\chocolatey\lib\sysinternals\to
+ols'
+Downloading sysinternals
+  from 'https://download.sysinternals.com/files/SysinternalsSuite.zip'
+Progress: 100% - Completed download of C:\Users\Saki\AppData\Local\Temp\chocolatey\sysinterna
+ls\2021.1.19\SysinternalsSuite.zip (38.13 MB).
+Download of SysinternalsSuite.zip (38.13 MB) completed.
+Hashes match.
+Extracting C:\Users\Saki\AppData\Local\Temp\chocolatey\sysinternals\2021.1.19\SysinternalsSui
+te.zip to C:\ProgramData\chocolatey\lib\sysinternals\tools...
+C:\ProgramData\chocolatey\lib\sysinternals\tools
+ ShimGen has successfully created a shim for accesschk.exe
+ ShimGen has successfully created a shim for accesschk64.exe
+ ShimGen has successfully created a shim for AccessEnum.exe
+ ShimGen has successfully created a shim for ADExplorer.exe
+ ShimGen has successfully created a shim for ADExplorer64.exe
+ ShimGen has successfully created a shim for ADInsight.exe
+ ShimGen has successfully created a shim for ADInsight64.exe
+ ShimGen has successfully created a shim for adrestore.exe
+ ShimGen has successfully created a shim for adrestore64.exe
+ ShimGen has successfully created a shim for Autologon.exe
+ ShimGen has successfully created a shim for Autologon64.exe
+ ShimGen has successfully created a shim for Autoruns.exe
+ ShimGen has successfully created a shim for Autoruns64.exe
+ ShimGen has successfully created a shim for autorunsc.exe
+ ShimGen has successfully created a shim for autorunsc64.exe
+ ShimGen has successfully created a shim for Bginfo.exe
+ ShimGen has successfully created a shim for Bginfo64.exe
+ ShimGen has successfully created a shim for Cacheset.exe
+ ShimGen has successfully created a shim for Clockres.exe
+ ShimGen has successfully created a shim for Clockres64.exe
+ ShimGen has successfully created a shim for Contig.exe
+ ShimGen has successfully created a shim for Contig64.exe
+ ShimGen has successfully created a shim for Coreinfo.exe
+ ShimGen has successfully created a shim for Coreinfo64.exe
+ ShimGen has successfully created a shim for CPUSTRES.EXE
+ ShimGen has successfully created a shim for CPUSTRES64.EXE
+ ShimGen has successfully created a shim for ctrl2cap.exe
+ ShimGen has successfully created a shim for Dbgview.exe
+ ShimGen has successfully created a shim for dbgview64.exe
+ ShimGen has successfully created a shim for Desktops.exe
+ ShimGen has successfully created a shim for disk2vhd.exe
+ ShimGen has successfully created a shim for diskext.exe
+ ShimGen has successfully created a shim for diskext64.exe
+ ShimGen has successfully created a shim for Diskmon.exe
+ ShimGen has successfully created a shim for DiskView.exe
+ ShimGen has successfully created a shim for DiskView64.exe
+ ShimGen has successfully created a shim for du.exe
+ ShimGen has successfully created a shim for du64.exe
+ ShimGen has successfully created a shim for efsdump.exe
+ ShimGen has successfully created a shim for FindLinks.exe
+ ShimGen has successfully created a shim for FindLinks64.exe
+ ShimGen has successfully created a shim for handle.exe
+ ShimGen has successfully created a shim for handle64.exe
+ ShimGen has successfully created a shim for hex2dec.exe
+ ShimGen has successfully created a shim for hex2dec64.exe
+ ShimGen has successfully created a shim for junction.exe
+ ShimGen has successfully created a shim for junction64.exe
+ ShimGen has successfully created a shim for ldmdump.exe
+ ShimGen has successfully created a shim for Listdlls.exe
+ ShimGen has successfully created a shim for Listdlls64.exe
+ ShimGen has successfully created a shim for livekd.exe
+ ShimGen has successfully created a shim for livekd64.exe
+ ShimGen has successfully created a shim for LoadOrd.exe
+ ShimGen has successfully created a shim for LoadOrd64.exe
+ ShimGen has successfully created a shim for LoadOrdC.exe
+ ShimGen has successfully created a shim for LoadOrdC64.exe
+ ShimGen has successfully created a shim for logonsessions.exe
+ ShimGen has successfully created a shim for logonsessions64.exe
+ ShimGen has successfully created a shim for movefile.exe
+ ShimGen has successfully created a shim for movefile64.exe
+ ShimGen has successfully created a shim for notmyfault.exe
+ ShimGen has successfully created a shim for notmyfault64.exe
+ ShimGen has successfully created a shim for notmyfaultc.exe
+ ShimGen has successfully created a shim for notmyfaultc64.exe
+ ShimGen has successfully created a shim for ntfsinfo.exe
+ ShimGen has successfully created a shim for ntfsinfo64.exe
+ ShimGen has successfully created a shim for pagedfrg.exe
+ ShimGen has successfully created a shim for pendmoves.exe
+ ShimGen has successfully created a shim for pendmoves64.exe
+ ShimGen has successfully created a shim for pipelist.exe
+ ShimGen has successfully created a shim for pipelist64.exe
+ ShimGen has successfully created a shim for portmon.exe
+ ShimGen has successfully created a shim for procdump.exe
+ ShimGen has successfully created a shim for procdump64.exe
+ ShimGen has successfully created a shim for procexp.exe
+ ShimGen has successfully created a shim for procexp64.exe
+ ShimGen has successfully created a shim for Procmon.exe
+ ShimGen has successfully created a shim for Procmon64.exe
+ ShimGen has successfully created a shim for PsExec.exe
+ ShimGen has successfully created a shim for PsExec64.exe
+ ShimGen has successfully created a shim for psfile.exe
+ ShimGen has successfully created a shim for psfile64.exe
+ ShimGen has successfully created a shim for PsGetsid.exe
+ ShimGen has successfully created a shim for PsGetsid64.exe
+ ShimGen has successfully created a shim for PsInfo.exe
+ ShimGen has successfully created a shim for PsInfo64.exe
+ ShimGen has successfully created a shim for pskill.exe
+ ShimGen has successfully created a shim for pskill64.exe
+ ShimGen has successfully created a shim for pslist.exe
+ ShimGen has successfully created a shim for pslist64.exe
+ ShimGen has successfully created a shim for PsLoggedon.exe
+ ShimGen has successfully created a shim for PsLoggedon64.exe
+ ShimGen has successfully created a shim for psloglist.exe
+ ShimGen has successfully created a shim for psloglist64.exe
+ ShimGen has successfully created a shim for pspasswd.exe
+ ShimGen has successfully created a shim for pspasswd64.exe
+ ShimGen has successfully created a shim for psping.exe
+ ShimGen has successfully created a shim for psping64.exe
+ ShimGen has successfully created a shim for PsService.exe
+ ShimGen has successfully created a shim for PsService64.exe
+ ShimGen has successfully created a shim for psshutdown.exe
+ ShimGen has successfully created a shim for pssuspend.exe
+ ShimGen has successfully created a shim for pssuspend64.exe
+ ShimGen has successfully created a shim for RAMMap.exe
+ ShimGen has successfully created a shim for RegDelNull.exe
+ ShimGen has successfully created a shim for RegDelNull64.exe
+ ShimGen has successfully created a shim for regjump.exe
+ ShimGen has successfully created a shim for ru.exe
+ ShimGen has successfully created a shim for ru64.exe
+ ShimGen has successfully created a shim for sdelete.exe
+ ShimGen has successfully created a shim for sdelete64.exe
+ ShimGen has successfully created a shim for ShareEnum.exe
+ ShimGen has successfully created a shim for ShellRunas.exe
+ ShimGen has successfully created a shim for sigcheck.exe
+ ShimGen has successfully created a shim for sigcheck64.exe
+ ShimGen has successfully created a shim for streams.exe
+ ShimGen has successfully created a shim for streams64.exe
+ ShimGen has successfully created a shim for strings.exe
+ ShimGen has successfully created a shim for strings64.exe
+ ShimGen has successfully created a shim for sync.exe
+ ShimGen has successfully created a shim for sync64.exe
+ ShimGen has successfully created a shim for Sysmon.exe
+ ShimGen has successfully created a shim for Sysmon64.exe
+ ShimGen has successfully created a shim for Tcpvcon.exe
+ ShimGen has successfully created a shim for Tcpview.exe
+ ShimGen has successfully created a shim for Testlimit.exe
+ ShimGen has successfully created a shim for Testlimit64.exe
+ ShimGen has successfully created a shim for vmmap.exe
+ ShimGen has successfully created a shim for vmmap64.exe
+ ShimGen has successfully created a shim for Volumeid.exe
+ ShimGen has successfully created a shim for Volumeid64.exe
+ ShimGen has successfully created a shim for whois.exe
+ ShimGen has successfully created a shim for whois64.exe
+ ShimGen has successfully created a shim for Winobj.exe
+ ShimGen has successfully created a shim for Winobj64.exe
+ ShimGen has successfully created a shim for ZoomIt.exe
+ ShimGen has successfully created a shim for ZoomIt64.exe
+ The install of sysinternals was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\sysinternals\tools'
+
+Chocolatey installed 51/57 packages. 3 packages failed.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+Installed:
+ - kb2919355 v1.0.20160915
+ - opera v74.0.3911.107
+ - checksum v0.2.0
+ - discord v0.0.309
+ - filezilla v3.52.2
+ - git.install v2.30.1
+ - malwarebytes v4.3.0.206
+ - drawio v14.1.8
+ - winrar v6.0.0.20210102
+ - gpg4win v3.1.15
+ - autohotkey v1.1.33.02
+ - procmon v3.61
+ - veracrypt v1.24.20200814
+ - autoit.install v3.3.14.5
+ - dotnet4.6.1 v4.6.01055.20170308
+ - kb2919442 v1.0.20160915
+ - git v2.30.1
+ - tor-browser v10.0.11
+ - chocolatey-misc-helpers.extension v0.0.4
+ - nirlauncher v1.23.39
+ - conemu v21.2.6.0
+ - irfanview v4.57
+ - hwmonitor v1.43.0.20201124
+ - vscode v1.53.2
+ - firefox v85.0.2
+ - brackets v1.14.2
+ - k-litecodecpackfull v15.9.5
+ - notepadplusplus v7.9.2
+ - autohotkey.install v1.1.33.02
+ - sublimetext3 v3.2.2
+ - autoit v3.3.14.5
+ - teamviewer v15.14.5
+ - ccleaner v5.76.8269
+ - winamp v5.666
+ - evernote v10.8.4
+ - dumo v2.23.2.112
+ - 7zip.portable v19.0
+ - sysinternals v2021.1.19
+ - nodejs v15.8.0
+ - autohotkey.portable v1.1.33.02
+ - googlechrome v88.0.4324.150
+ - slack v4.12.2
+ - chocolatey-core.extension v1.3.5.1
+ - dotnet4.5.2 v4.5.2.20140902
+ - dropbox v115.4.601
+ - launchy v2.5.0.20201016
+ - itunes v12.11.0.26
+ - totalcommander v9.51
+ - heroku-cli v7.47.12.0
+ - vscode.install v1.53.2
+ - adobereader v2021.001.20135
+
+Warnings:
+ - nodejs.install - nodejs.install v15.8.0 already installed.
+ Use --force to reinstall, specify a version to install, or try upgrade.
+ - notepadplusplus.install - notepadplusplus.install v7.9.2 already installed.
+ Use --force to reinstall, specify a version to install, or try upgrade.
+ - discord.install - discord.install v0.0.309 already installed.
+ Use --force to reinstall, specify a version to install, or try upgrade.
+
+Packages requiring reboot:
+ - adobereader (exit code 3010)
+
+The recent package changes indicate a reboot is necessary.
+ Please reboot at your earliest convenience.
+
+Failures
+ - steam (exited -1) - Error while running 'C:\ProgramData\chocolatey\lib\steam\tools\chocola
+teyInstall.ps1'.
+ See log for details.
+ - iris (exited 404) - Error while running 'C:\ProgramData\chocolatey\lib\iris\tools\chocolat
+eyinstall.ps1'.
+ See log for details.
+ - utorrent (exited -1) - Error while running 'C:\ProgramData\chocolatey\lib\uTorrent\tools\c
+hocolateyinstall.ps1'.
+ See log for details.
+
+ !!!!!!!!!!!!!!!!!!!!!!!!!!!! DROPBOX !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+**********************************************************************
+End of log proccessed at : 
+05:16:29, 2021/02/12 
+**********************************************************************
+
+Press any key to continue...
+Restarting...
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20210212171642
+**********************
